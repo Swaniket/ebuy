@@ -1,0 +1,38 @@
+.card {
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    background-clip: content-box;
+    width: 19rem;
+    border-radius: 30px;
+    margin: auto;
+    border: none;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.25);
+    transition: 350ms ease-in-out, box-shadow 300ms ease-in-out;
+  }
+
+.card:hover{
+    background-color: #f7eeff;
+    box-shadow: 0 15px 90px 0 rgba(0,0,0,0.25);
+    transform: scale(1.04);
+}
+
+
+.btn{
+  background: none;
+  border: 1px solid #4434a0;
+  color: #4434a0;
+  font-family: "montserrat";
+  transition: 0.8s;
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #4434a0;
+  color: rgba(255,255,255,1);
+  border-color: #4434a0;
+}
+
+.bg-primary{
+  background-color: #845EC2 !important;
+}
